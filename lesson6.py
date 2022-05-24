@@ -2,13 +2,15 @@
 motorcycle_owner = "Moja Jojo"
 plate = ['H1234', 'Y1234', 'S1234']
 motorcycle = ['Honda', 'Yamaha', 'Suzuki']
+print(motorcycle[-1])
 #accessing list itemsusing index
 #print(motorcycle)
 #motorcycle[2]= "Bugatti"#changing element in a list
 #print("I love " +str(motorcycle[2]))
 #adding elements in a list
 motorcycle.append("Bugatti")
-print(motorcycle)
+motorcycle[2] = 'boxer'
+#print(motorcycle)
 #task..print all motorcycle with their print numbers
 #print(motorcycle[0], (plate[0]))
 #print(motorcycle[1], (plate[1]))

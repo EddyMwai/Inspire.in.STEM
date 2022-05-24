@@ -4,8 +4,10 @@ name = "Ada Lovelace"
 user_name = "Lovelove"
 age = 18
 person = "I am " + str(name) + " and my age is" + str(age)
-print (person)
+#print (person)
 # the format() method
-print("My name is {} and I am {}".format (name, age))
+#print("My name is {} and I am {}".format (name, age))
 # newline \n and tab \t
-print(f"My \t name")
+#print(f"My \t name")
+#Tabs \t
+print("Monday\tTuesday\tWednesday\tThursday\tFriday\tSaturday\tSunday")
