@@ -8,7 +8,7 @@ pieces = input("Pieces?")
 date_received = input("Date received?") 
 name = input("Mr/Mrs/REV..")
 if clothes == 'suit':
-    amount=450
+    amount =450
 elif clothes == 'trouser':
     amount = 300 
 print(clothes)

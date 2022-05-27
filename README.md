@@ -62,3 +62,22 @@ print(student["age"])
 # removing an element
 del student1["fav_food"]
 print(student1)
+
+# #####################
+loops 
+i) for loops 
+ii) while loops
+# #######################
+conditions
+...if 
+
+
+# functions
+< less than
+<= less than or equal to
+ > greater than 
+ >=greater than or equal to
+ == equal to
+ = assigning
+ % modullas used in division
+n! is (n-1) * (n-2) * (n-3)

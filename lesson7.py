@@ -26,6 +26,26 @@ for key,value in person.items():
 #print(type(person))
 print(person)
 #adding
+#using get to access the value in a dictionary
+print(person.get('location','the \'location\' is non-existent'))
+
+#################################################
+#lists in dictionaries
+
+mary_fav_food =['beef', 'chicken', 'vegetable' ]
+jane_fav_food =['rice', 'ugali', 'potatoe']
+
+fav_food={'Mary':['beef', 'chicken', 'vegetable'], 'Jane':['rice', 'ugali', 'potatoe']}
+#print(fav_food)
+
+artists=['Teni', 'Tekno', 'Ronisia']
+songs=['case', 'jogodo', 'nha terra']
+playlist={'artists':artists, 'songs':songs}
+print(playlist)
+
+
+
+
 
 # Initializing dictionaries
 student = {"Name":"Memz", "age":24, "sex":"Male"}
