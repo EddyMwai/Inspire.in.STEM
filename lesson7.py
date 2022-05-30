@@ -12,22 +12,22 @@ vehicle={'type':'toyota', 'plate_number':'KNY316'}
 #print(type(colours)) to read the data type : we use the type method
 
 #Accessing elements in a dictionary
-print((vehicle['type']), (vehicle['plate_number']))
+#print((vehicle['type']), (vehicle['plate_number']))
 #example in person
 person={'name':'Memz','p_number':'0700381819', 'gender':'male', 'home':'jiji'}
 person['colour']='black'
 del person['p_number']
-print(person['name'])
-print(person['gender'])
-print(person['home'])
+#print(person['name'])
+#print(person['gender'])
+#print(person['home'])
 #looping over dictionaries
-for key,value in person.items():
-    print(f"{key}:{value}")
+#for key,value in person.items():
+    #print(f"{key}:{value}")
 #print(type(person))
-print(person)
+#print(person)
 #adding
 #using get to access the value in a dictionary
-print(person.get('location','the \'location\' is non-existent'))
+#print(person.get('location','the \'location\' is non-existent'))
 
 #################################################
 #lists in dictionaries
@@ -35,13 +35,17 @@ print(person.get('location','the \'location\' is non-existent'))
 mary_fav_food =['beef', 'chicken', 'vegetable' ]
 jane_fav_food =['rice', 'ugali', 'potatoe']
 
-fav_food={'Mary':['beef', 'chicken', 'vegetable'], 'Jane':['rice', 'ugali', 'potatoe']}
-#print(fav_food)
+fav_food={
+    'Mary': ['beef', 'chicken', 'vegetable'] ,
+    'Jane': ['rice', 'ugali', 'potatoes']
+    }
+for key,value in fav_food :
+    print(f"{key}:{value}")
 
 artists=['Teni', 'Tekno', 'Ronisia']
 songs=['case', 'jogodo', 'nha terra']
 playlist={'artists':artists, 'songs':songs}
-print(playlist)
+#print(playlist)
 
 
 
@@ -49,15 +53,15 @@ print(playlist)
 
 # Initializing dictionaries
 student = {"Name":"Memz", "age":24, "sex":"Male"}
-print(student["Name"])
-print(student["sex"])
-print(student["age"])
+#print(student["Name"])
+#print(student["sex"])
+#print(student["age"])
 
 #adding an item in the dictionary
 student["Id_No"] = "21250"
 student["club"] = "Mancity"
 student["sport"] = "fotball"
-print(student)
+#print(student)
 
 #starting with an empty dictionary
 student1 = {}
@@ -65,12 +69,12 @@ student1 = {}
 #add pairs
 student1["fav_food"] = "turkey"
 student1["home_city"]="Nairobi"
-print(student1)
+#print(student1)
 
 #modifying values in a dictionary
 student["age"] = "18"
-print(student["age"])
+#print(student["age"])
 
 #removing an element
 del student1["fav_food"]
-print(student1)
+#print(student1)
