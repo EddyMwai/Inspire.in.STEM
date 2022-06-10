@@ -1,0 +1,18 @@
+This is a normal text file
+Learning python is fun 
+Today is on a monday 
+Fourth week of the STEM program
+
+
+
+f=open("lesson.txt")
+f=open("lesson.txt",'R')
+f = open("img.bmp", 'r+b')
+
+r Opens a file for reading
+w Opens a file for writing. Creates new file
+x Opens a file for exclusive creation
+a Opens file for appending at the end of the line
+t Opens in text mode(default)
+b Opens in binary mode
++ Opens a file for updating (reading and writing)

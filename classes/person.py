@@ -22,3 +22,4 @@ employee1=Employee('Dylan Oti', str(24000))
 employee1.say_hello()
 employee2=Employee('Roddy Rich', str(550000))
 employee2.say_hello()
+

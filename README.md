@@ -81,3 +81,13 @@ conditions
  = assigning
  % modullas used in division
 n! is (n-1) * (n-2) * (n-3)
+
+# file operations
+open file   = file_name.open()
+write file   = ''''.wite()
+append    ='''''.append
+close  ='''''''.close()
+read  =''''''.read()
+seeek     =''''.seek()
+tell      ='''.tell()- # Telll what line
+read a line  ='''''.readline
